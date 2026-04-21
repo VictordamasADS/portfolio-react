@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #ec1c24;
+  --secondary: #2d7575;
+  --red50: #eb4b5b;
+  --red100: #c52e34;
+  --red150: #e61e32;
+  --red200: #890c15;
+  --red300: #5f080e;
+  --green100: #1f4a4a;
+  --white: #fff;
+  --black: #000;
+  --gray100: #fbfbfb;
+  --gray200: #f8f8f8;
+  --gray300: #efefef;
+  --gray350: #ecefef;
+  --gray400: #dedede;
+  --gray450: #d8dfdf;
+  --gray500: #d2d2d2;
+  --gray600: #707070;
+  --gray650: #4d5d5d;
+  --gray700: #262f2f;
+  --green300: #15be78;
+  --green350: #13915c;
+  --blue100: #a1e5c9;
+  --borderRadius: 5px;
+  --max-width: 1440px;
+  --form-width: 1100px;
+  --font-xl-bold: 700 40px 'Roboto', sans-serif;
+  --font-lg-bold: 700 36px 'Roboto', sans-serif;
+  --font-md-bold: 700 20px 'Roboto', sans-serif;
+  --font-sm-bold: 700 16px 'Roboto', sans-serif;
+  --font-lg-regular: 400 24px 'Roboto', sans-serif;
+  --font-md-regular: 400 20px 'Roboto', sans-serif;
+  --font-sm-regular: 400 16px 'Roboto', sans-serif;
+  --font-lg-light: 300 40px 'Roboto', sans-serif;
+  --font-md-light: 300 20px 'Roboto', sans-serif;
+  --font-sm-light: 300 16px 'Roboto', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  display: flex;
+  background-color: #030712;
+  height: 100vh;
+  width: 100vw;
+}
+
+@keyframes meteor {
+  0% {
+    transform: translate(-300px, -300px) rotate(45deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(140vw, 140vh) rotate(45deg);
+    opacity: 0;
+  }
+}
+
+@keyframes meteor {
+  0% {
+    transform: translate(-300px, -300px) rotate(45deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(140vw, 140vh) rotate(45deg);
+    opacity: 0;
+  }
+}
+
+.meteor {
+  position: absolute;
+  display: flex;
+  align-items: center;
+
+  animation: meteor 4s linear infinite;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+    filter: brightness(1.4);
+  }
+  50% {
+    transform: scale(1.6);
+    opacity: 0.8;
+    filter: brightness(2.2);
+  }
+}
+
+.meteor-core {
+  animation: pulseGlow 1.5s ease-in-out infinite;
+
+  filter: blur(1px);
+
+  box-shadow:
+    0 0 20px white,
+    0 0 40px white,
+    0 0 80px white;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.6s ease forwards;
+}
