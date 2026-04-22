@@ -4,7 +4,7 @@ import { cn } from "../utils/cn";
 import { Timeline } from "./timeline";
 
 interface ExperiencesProps {
-  lenguage: "english" | "portuguese";
+  language: "english" | "portuguese";
   data: {
     position: string;
     nameAndDescription: string;
@@ -15,14 +15,14 @@ interface ExperiencesProps {
   space?: boolean;
 }
 
-export function Experiences({ data, lenguage, space }: ExperiencesProps) {
+export function Experiences({ data, language, space }: ExperiencesProps) {
   const formatDate = (date: Date | null) => {
     if (!date) {
-      return lenguage === "portuguese" ? "Emprego Atual" : "Current Job";
+      return language === "portuguese" ? "Emprego Atual" : "Current Job";
     }
 
     return format(date, "MMM 'de' yyyy", {
-      locale: lenguage === "portuguese" ? ptBR : enIN,
+      locale: language === "portuguese" ? ptBR : enIN,
     });
   };
 
@@ -32,7 +32,7 @@ export function Experiences({ data, lenguage, space }: ExperiencesProps) {
       end: end ?? new Date(),
     });
 
-    const typeLenguage = {
+    const typelanguage = {
       portuguese: {
         year: { singular: "ano", plural: "anos" },
         month: { singular: "mês", plural: "meses" },
@@ -44,34 +44,34 @@ export function Experiences({ data, lenguage, space }: ExperiencesProps) {
     };
 
     if (duration.years === 0 && duration.months === 0) {
-      return lenguage === "portuguese" ? "menos de 1 mês" : "less than 1 month";
+      return language === "portuguese" ? "menos de 1 mês" : "less than 1 month";
     }
 
     if (duration.years > 0 && duration.months > 0) {
       return `${duration.years} ${
         duration.years === 1
-          ? typeLenguage[lenguage].year.singular
-          : typeLenguage[lenguage].year.plural
-      } ${lenguage === "portuguese" ? "e" : "and"} ${duration.months} ${
+          ? typelanguage[language].year.singular
+          : typelanguage[language].year.plural
+      } ${language === "portuguese" ? "e" : "and"} ${duration.months} ${
         duration.months === 1
-          ? typeLenguage[lenguage].month.singular
-          : typeLenguage[lenguage].month.plural
+          ? typelanguage[language].month.singular
+          : typelanguage[language].month.plural
       }`;
     }
 
     if (duration.years === 0 && duration.months > 0) {
       return `${duration.months} ${
         duration.months === 1
-          ? typeLenguage[lenguage].month.singular
-          : typeLenguage[lenguage].month.plural
+          ? typelanguage[language].month.singular
+          : typelanguage[language].month.plural
       }`;
     }
 
     if (duration.months === 0 && duration.years > 0) {
       return `${duration.years} ${
         duration.years === 1
-          ? typeLenguage[lenguage].year.singular
-          : typeLenguage[lenguage].year.plural
+          ? typelanguage[language].year.singular
+          : typelanguage[language].year.plural
       }`;
     }
   };

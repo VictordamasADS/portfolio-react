@@ -3,33 +3,33 @@ import { courses } from "../constants/courses";
 import { degree } from "../constants/degree";
 
 interface CartoonProps {
-  lenguage: "english" | "portuguese";
+  language: "english" | "portuguese";
 }
 
-export function Cartoon({ lenguage }: CartoonProps) {
+export function Cartoon({ language }: CartoonProps) {
   return (
     <section className="relative w-full min-h-150 flex items-center justify-center overflow-hidden perspective-[1000px] animate-pulse">
       <div className="absolute w-125 h-125 rounded-full bg-white/20 blur-[120px] animate-pulse" />
       <div className="w-full max-w-4xl flex flex-col p-2">
         <h1 className="text-white/80 text-sm sm:text-lg font-bold">
-          {degree[lenguage].title}
+          {degree[language].title}
         </h1>
         <p className="text-white/80 text-lg leading-relaxed max-w-2xl hover:text-white transition-colors duration-300">
-          {degree[lenguage].text}
+          {degree[language].text}
         </p>
         <p className="text-white/80 text-lg leading-relaxed max-w-2xl hover:text-white transition-colors duration-300">
           2021 - 2023
         </p>
 
         <h1 className="text-white/80 text-sm sm:text-lg font-bold mt-4">
-          {courses[lenguage].title}
+          {courses[language].title}
         </h1>
 
         <p className="text-white/80 text-lg leading-relaxed max-w-2xl hover:text-white transition-colors duration-300">
-          {courses[lenguage].text}
+          {courses[language].text}
         </p>
         <p className="text-white/80 text-lg leading-relaxed max-w-2xl hover:text-white transition-colors duration-300">
-          {courses[lenguage].text2}
+          {courses[language].text2}
         </p>
       </div>
 

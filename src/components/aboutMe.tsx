@@ -2,10 +2,10 @@ import { textAboutMe } from "../constants/text-about-me";
 import { Timeline } from "./timeline";
 
 interface AboutMeProps {
-  lenguage: "english" | "portuguese";
+  language: "english" | "portuguese";
 }
 
-export function AboutMe({ lenguage }: AboutMeProps) {
+export function AboutMe({ language }: AboutMeProps) {
   return (
     <section className="relative w-full min-h-screen flex justify-center overflow-hidden p-2">
       <div className="absolute w-125 h-125 rounded-full blur-[120px] opacity-10 bg-white bottom-[20%] right-[30%] animate-pulse" />
@@ -16,7 +16,7 @@ export function AboutMe({ lenguage }: AboutMeProps) {
         <div className="absolute left-4 top-0 h-full w-0.5 bg-linear-to-b from-white via-white/40 to-transparent" />
 
         <div className="flex flex-col gap-16 w-full">
-          {textAboutMe[lenguage].map((text, index) => (
+          {textAboutMe[language].map((text, index) => (
             <Timeline key={index} text={text} index={index} />
           ))}
         </div>

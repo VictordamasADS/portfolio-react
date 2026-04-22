@@ -196,5 +196,18 @@ body {
 }
 
 .animate-walk {
-  animation: walkSide 6s ease-in-out infinite;
+  animation: walkSide 10s ease-in-out infinite;
+}
+
+@keyframes carousel {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-carousel {
+  animation: carousel 30s linear infinite;
 }
