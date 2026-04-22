@@ -8,12 +8,17 @@ interface TitleProps {
 
 export function Title({ text, className }: TitleProps) {
   return (
-    <section className="relative flex justify-center bg-neutral-950 overflow-hidden my-10">
-      <h1
-        className={cn("text-white/80 text-sm sm:text-lg font-bold", className)}
-      >
-        {text}
-      </h1>
+    <section className="relative w-full flex justify-center my-12 pl-3">
+      <div className="w-full max-w-4xl">
+        <h1
+          className={cn(
+            "text-white/80 text-sm sm:text-lg font-bold",
+            className,
+          )}
+        >
+          {text}
+        </h1>
+      </div>
     </section>
   );
 }

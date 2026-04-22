@@ -4,10 +4,15 @@ import {
   SiApachekafka,
   SiCypress,
   SiDocker,
+  SiFigma,
+  SiGit,
+  SiGithub,
+  SiGitlab,
   SiGooglecloud,
   SiJenkins,
   SiJest,
   SiKubernetes,
+  SiLinux,
   SiMongodb,
   SiMysql,
   SiNestjs,
@@ -16,6 +21,9 @@ import {
   SiPostgresql,
   SiPrisma,
   SiReact,
+  SiRedis,
+  SiRedux,
+  SiTailwindcss,
   SiTerraform,
   SiTypescript,
   SiVuedotjs,
@@ -101,5 +109,37 @@ export const icons = [
   {
     icon: <SiGooglecloud className="text-blue-400 size-72 lg:size-96" />,
     glow: "bg-blue-400",
+  },
+  {
+    icon: <SiRedux className="text-purple-500 size-72 lg:size-96" />,
+    glow: "bg-purple-500",
+  },
+  {
+    icon: <SiRedis className="text-red-600 size-72 lg:size-96" />,
+    glow: "bg-red-600",
+  },
+  {
+    icon: <SiTailwindcss className="text-cyan-400 size-72 lg:size-96" />,
+    glow: "bg-cyan-400",
+  },
+  {
+    icon: <SiGit className="text-orange-500 size-72 lg:size-96" />,
+    glow: "bg-orange-500",
+  },
+  {
+    icon: <SiGithub className="text-white size-72 lg:size-96" />,
+    glow: "bg-white",
+  },
+  {
+    icon: <SiGitlab className="text-orange-400 size-72 lg:size-96" />,
+    glow: "bg-orange-400",
+  },
+  {
+    icon: <SiLinux className="text-yellow-300 size-72 lg:size-96" />,
+    glow: "bg-yellow-300",
+  },
+  {
+    icon: <SiFigma className="text-pink-500 size-72 lg:size-96" />,
+    glow: "bg-pink-500",
   },
 ];

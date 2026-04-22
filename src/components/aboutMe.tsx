@@ -7,7 +7,7 @@ interface AboutMeProps {
 
 export function AboutMe({ lenguage }: AboutMeProps) {
   return (
-    <section className="relative w-full min-h-screen flex justify-center bg-neutral-950 overflow-hidden mt-4">
+    <section className="relative w-full min-h-screen flex justify-center overflow-hidden p-2">
       <div className="absolute w-125 h-125 rounded-full blur-[120px] opacity-10 bg-white bottom-[20%] right-[30%] animate-pulse" />
       <div className="absolute w-175 h-175 rounded-full blur-[120px] opacity-20 bg-blue-500 top-[20%] left-[30%] animate-pulse" />
       <div className="absolute w-125 h-125 rounded-full blur-[120px] opacity-10 bg-red-500 bottom-[20%] right-[30%] animate-pulse" />
