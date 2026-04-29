@@ -9,6 +9,7 @@ import {
   SiGithub,
   SiGitlab,
   SiGooglecloud,
+  SiGrafana,
   SiJenkins,
   SiJest,
   SiKubernetes,
@@ -20,6 +21,7 @@ import {
   SiNodedotjs,
   SiPostgresql,
   SiPrisma,
+  SiPrometheus,
   SiReact,
   SiRedis,
   SiRedux,
@@ -141,5 +143,13 @@ export const icons = [
   {
     icon: <SiFigma className="text-pink-500 size-72 lg:size-96" />,
     glow: "bg-pink-500",
+  },
+  {
+    icon: <SiGrafana className="text-orange-500 size-72 lg:size-96" />,
+    glow: "bg-orange-500",
+  },
+  {
+    icon: <SiPrometheus className="text-orange-600 size-72 lg:size-96" />,
+    glow: "bg-orange-600",
   },
 ];
