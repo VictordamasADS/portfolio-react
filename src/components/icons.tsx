@@ -19,6 +19,7 @@ import {
   SiNestjs,
   SiNextdotjs,
   SiNodedotjs,
+  SiOpenai,
   SiPostgresql,
   SiPrisma,
   SiPrometheus,
@@ -51,6 +52,14 @@ export const icons = [
   {
     icon: <SiNodedotjs className="text-green-600 size-72 lg:size-96" />,
     glow: "bg-green-600",
+  },
+  {
+    icon: <SiOpenai className="text-white size-72 lg:size-96" />,
+    glow: "bg-white",
+  },
+  {
+    icon: <SiGooglecloud className="text-blue-500 size-72 lg:size-96" />,
+    glow: "bg-blue-500",
   },
   {
     icon: <SiAngular className="text-red-700 size-72 lg:size-96" />,

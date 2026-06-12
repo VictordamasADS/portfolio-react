@@ -1,8 +1,8 @@
 export const textHeader = {
   portuguese: {
-    title: "Desenvolvedor de Software",
+    title: "Engenheiro de Software Full-Stack",
   },
   english: {
-    title: "Software Developer",
+    title: "Full-Stack Software Engineer",
   },
 };
