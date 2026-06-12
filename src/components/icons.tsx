@@ -58,10 +58,6 @@ export const icons = [
     glow: "bg-white",
   },
   {
-    icon: <SiGooglecloud className="text-blue-500 size-72 lg:size-96" />,
-    glow: "bg-blue-500",
-  },
-  {
     icon: <SiAngular className="text-red-700 size-72 lg:size-96" />,
     glow: "bg-red-700",
   },
