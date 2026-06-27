@@ -6,7 +6,7 @@ export const experiences = {
       start: new Date(2022, 6, 18),
       end: null,
       deliveries: [
-        "Atualmente, trabalho na Sistema Gerencial TXAI desenvolvendo sistemas internos para a gestão de cartórios em todo o Brasil. Meu foco é integrar o setor financeiro à tecnologia, promovendo eficiência operacional, escalabilidade e tomada de decisões baseada em dados, minhas principais entregas são:",
+        "Atualmente, trabalho no Sistema Gerencial TXAI desenvolvendo sistemas internos para a gestão de cartórios em todo o Brasil. Meu foco é integrar o setor financeiro à tecnologia, promovendo eficiência operacional, escalabilidade e tomada de decisões baseada em dados, minhas principais entregas são:",
         "Redução de 70% no tempo de geração e análise de relatórios por meio da integração de IA generativa usando ChatGPT e Gemini.",
         "Automatizei fluxos de trabalho financeiros críticos para a empresa, reduzindo significativamente o processamento manual e aumentando a eficiência operacional em até 30%.",
         "Desenvolvi funcionalidades escaláveis ​​e capacidades de plataforma que apoiaram a aquisição de clientes e as iniciativas de expansão dos negócios, o que aumentou consideravelmente a receita.",
