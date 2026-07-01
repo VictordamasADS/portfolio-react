@@ -1,4 +1,4 @@
-import { SiGmail, SiLinkedin } from "react-icons/si";
+import { SiGithub, SiGmail, SiLinkedin } from "react-icons/si";
 
 export function Footer() {
   return (
@@ -10,6 +10,14 @@ export function Footer() {
         className="cursor-pointer"
       >
         <SiLinkedin className="text-white w-8 h-8" />
+      </a>
+      <a
+        href="https://github.com/VictordamasADS"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="cursor-pointer"
+      >
+        <SiGithub className="text-white w-8 h-8" />
       </a>
       <a href="mailto:jvictordamas13@gmail.com" className="cursor-pointer">
         <SiGmail className="text-white w-8 h-8 transition-transform duration-300 group-hover:scale-110" />
