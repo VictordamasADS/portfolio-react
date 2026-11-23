@@ -10,7 +10,6 @@ export const experiences = {
         "Redução de 70% no tempo de geração e análise de relatórios por meio da integração de IA generativa usando ChatGPT e Gemini.",
         "Automatizei fluxos de trabalho financeiros críticos para a empresa, reduzindo significativamente o processamento manual e aumentando a eficiência operacional em até 30%.",
         "Desenvolvi funcionalidades escaláveis ​​e capacidades de plataforma que apoiaram a aquisição de clientes e as iniciativas de expansão dos negócios, o que aumentou consideravelmente a receita.",
-        "Desenvolvi aplicações escaláveis ​​usando React, Next.js, TypeScript, Node.js e NestJS.",
         "Implementei soluções de monitoramento e observabilidade com Prometheus e Grafana.",
         "Criei pipelines de CI/CD automatizados usando GitHub Actions, GitLab CI/CD e Jenkins.",
         "Desenvolvi arquiteturas orientadas a eventos e cache global para reutilizar textos gerados por IA usando Apache Kafka e Redis.",
@@ -24,7 +23,6 @@ export const experiences = {
       end: new Date(2022, 6, 18),
       deliveries: [
         "Trabalhei como desenvolvedor de software em projetos freelance, participando do desenvolvimento de websites, aplicativos, APIs e servidores, com foco na entrega de soluções personalizadas para diversos clientes. Atuei em um ambiente dinâmico, com projetos de curto e médio prazo (de 3 a 12 meses), priorizando demandas urgentes e entregas rápidas, sempre com foco na qualidade e na satisfação do cliente, minhas principais entregas são:",
-        "Desenvolvi e mantive aplicações web, aplicações móveis e APIs para múltiplos projetos de clientes usando React, Next.js, React Native, Angular, Vue.js, Node.js e NestJS.",
         "Entreguei soluções de software completas, desde a arquitetura e o desenvolvimento até a implantação e o suporte à produção.",
         "Configurei e gerenciei infraestrutura em nuvem usando AWS e GCP, garantindo a disponibilidade e a consistência das implantações de aplicativos.",
         "Resolvi problemas de produção e implementei otimizações de desempenho, melhorando a estabilidade do aplicativo e a experiência do usuário.",
@@ -44,7 +42,6 @@ export const experiences = {
         "Reduced report generation and analysis time by 70% through Generative AI integration using ChatGPT and Gemini.",
         "I automated critical financial workflows for the company, significantly reducing manual processing and increasing operational efficiency by up to 30%.",
         "I developed scalable functionalities and platform capabilities that supported customer acquisition and business expansion initiatives, which considerably increased revenue.",
-        "Developed scalable applications using React, Next.js, TypeScript, Node.js and NestJS.",
         "Implemented monitoring and observability solutions with Prometheus and Grafana.",
         "Built automated CI/CD pipelines using GitHub Actions, GitLab CI/CD and Jenkins.",
         "I developed event-driven architectures and global caching to reuse AI-generated texts using Apache Kafka and Redis.",
@@ -58,7 +55,6 @@ export const experiences = {
       end: new Date(2022, 6, 18),
       deliveries: [
         "I worked as a software developer on freelance projects, participating in the development of websites, applications, APIs, and servers, focusing on delivering customized solutions for various clients. I worked in a dynamic environment, with short and medium-term projects (3 to 12 months), prioritizing urgent demands and quick deliveries, always focusing on quality and client satisfaction, my main deliverables:",
-        "Developed and maintained web applications, mobile applications and APIs for multiple client projects using React, Next.js, React Native, Angular, Vue.js, Node.js and NestJS.",
         "Delivered end-to-end software solutions from architecture and development to deployment and production support.",
         "Configured and managed cloud infrastructure using AWS and GCP, ensuring application availability and deployment consistency.",
         "Resolved production issues and implemented performance optimizations, improving application stability and user experience.",
